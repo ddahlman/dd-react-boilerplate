@@ -1,0 +1,19 @@
+{
+  "name": "new_roujan",
+  "version": "1.0.0",
+  "description": "Vacation webpage about a house in roujan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddahlman/new_roujan.git"
+  },
+  "author": "Daniel Dahlman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddahlman/new_roujan/issues"
+  },
+  "homepage": "https://github.com/ddahlman/new_roujan#readme"
+}
