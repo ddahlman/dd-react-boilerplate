@@ -8,5 +8,7 @@
         'sidebar content content'
         'footer footer footer';
 
-    .header {}
+    .header {
+        grid-area: header;
+    }
 }
