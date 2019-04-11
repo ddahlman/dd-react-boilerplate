@@ -1,2 +1,2 @@
-# new_roujan
-making a vacation website for my parents. 
+# dd-react-boilerplate
+a boilerplate built with webpack 4, babel and react. 
