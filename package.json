@@ -2,6 +2,10 @@
   "name": "dd-react-boilerplate",
   "version": "1.0.0",
   "description": "boilerplate built with webpack 4, babel and react.",
+  "browserslist": [
+    "> 1% in SE",
+    "not op_mini all"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
