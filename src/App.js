@@ -9,7 +9,7 @@ export default class App extends Component {
 
 		return (
 			<section className={style.appContainer}>
-				<nav clasName={style.header}>
+				<nav className={style.header}>
 					<Link exact to="/">Home</Link>
 					<Link to="/about">About</Link>
 					<Link to="/contact">Contact</Link>

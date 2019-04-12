@@ -10,7 +10,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 	filename: './index.html'
 });
 
-const cleanWebpack = new CleanWebpackPlugin(['dist']);
+const cleanWebpack = new CleanWebpackPlugin();
 
 /* const bundleAnalyzer = new BundleAnalyzerPlugin(); */
 
@@ -23,7 +23,7 @@ const autoprefixerPlugin = new webpack.LoaderOptionsPlugin({
 });
 
 module.exports = {
-	entry: ['core-js/modules/es6.promise', 'core-js/modules/es6.array.iterator', path.resolve(__dirname, './src/index.js')],
+	entry: ['core-js/modules/es.promise.js', 'core-js/modules/es.array.iterator.js', path.resolve(__dirname, './src/index.js')],
 	output: {
 		filename: '[name].[chunkhash].js',
 		chunkFilename: '[name].[chunkhash].js',
@@ -77,8 +77,8 @@ module.exports = {
 							modules: true,
 							importLoaders: 1,
 							localIdentName: '[name]_[local]_[hash:base64]',
-							sourceMap: true,
-							minimize: true
+							sourceMap: true/* ,
+							minimize: true */
 						}
 					},
 					{
