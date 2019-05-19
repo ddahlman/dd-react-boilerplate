@@ -1,0 +1,16 @@
+.container {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 100px repeat(2, 1fr);
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-areas:
+        '. . .'
+        '. content .'
+        '. . .';
+    background-color: #555;
+
+    p {
+        color: #fff;
+        grid-area: content;
+    }
+}

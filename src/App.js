@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Routes from './Routes';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 import style from './App.scss';
 
 export default class App extends Component {
@@ -9,13 +10,15 @@ export default class App extends Component {
 
 		return (
 			<section className={style.appContainer}>
-				<nav className={style.header}>
-					<Link exact to="/">Home</Link>
-					<Link to="/about">About</Link>
-					<Link to="/contact">Contact</Link>
-				</nav>
+				<section className={style.header}>
+					<nav className={style.headerContent}>
+						<Link to="/">Home</Link>
+						<Link to="/about">About</Link>
+						<Link to="/contact">Contact</Link>
+					</nav>
+				</section>
 				<Routes />
-
+				<Footer />
 			</section>
 		);
 	}
